@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_IRISX8.mk
+    $(LOCAL_DIR)/device_STUDIO_X8_HD.mk

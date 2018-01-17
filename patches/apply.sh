@@ -1,37 +1,37 @@
  #!/bin/bash
  cd ../../../..
  cd system/core
- patch -p1 < ../../device/LAVA/IRISX8/patches/core.patch
+ patch -p1 < ../../device/BLU/STUDIO_X8_HD/patches/core.patch
  cd ../..
  cd system*/bt
- patch -p1 < ../../device/LAVA/IRISX8/patches/bt.patch
+ patch -p1 < ../../device/BLU/STUDIO_X8_HD/patches/bt.patch
  cd ..
  cd net*
- patch -p1 < ../../device/LAVA/IRISX8/patches/netd2.patch
- patch -p1 < ../../device/LAVA/IRISX8/patches/netd1.patch
+ patch -p1 < ../../device/BLU/STUDIO_X8_HD/patches/netd2.patch
+ patch -p1 < ../../device/BLU/STUDIO_X8_HD/patches/netd1.patch
  cd ..
  cd vo*
- patch -p1 < ../../device/LAVA/IRISX8/patches/vold.patch
+ patch -p1 < ../../device/BLU/STUDIO_X8_HD/patches/vold.patch
  cd ../..
  cd frame*/av
- patch -p1 < ../../device/LAVA/IRISX8/patches/av.patch
+ patch -p1 < ../../device/BLU/STUDIO_X8_HD/patches/av.patch
  cd ..
  cd base
- patch -p1 < ../../device/LAVA/IRISX8/patches/base.patch
+ patch -p1 < ../../device/BLU/STUDIO_X8_HD/patches/base.patch
  cd ..
  cd rs
- patch -p1 < ../../device/LAVA/IRISX8/patches/rs.patch
+ patch -p1 < ../../device/BLU/STUDIO_X8_HD/patches/rs.patch
  cd ..
  cd native
- patch -p1 < ../../device/LAVA/IRISX8/patches/native.patch
+ patch -p1 < ../../device/BLU/STUDIO_X8_HD/patches/native.patch
  cd ..
  cd opt/te*/
- patch -p1 < ../../../device/LAVA/IRISX8/patches/telephony.patch
+ patch -p1 < ../../../device/BLU/STUDIO_X8_HD/patches/telephony.patch
  cd ../../..
  cd exte*/sepolicy
- patch -p1 < ../../device/LAVA/IRISX8/patches/sepolicy.patch
+ patch -p1 < ../../device/BLU/STUDIO_X8_HD/patches/sepolicy.patch
  cd ..
  cd wpa*
- patch -p1 < ../../device/LAVA/IRISX8/patches/wpa.patch
+ patch -p1 < ../../device/BLU/STUDIO_X8_HD/patches/wpa.patch
  cd ../..
  echo Patches Applied Successfully!

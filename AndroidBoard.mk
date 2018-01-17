@@ -9,4 +9,4 @@ ALL_PREBUILT += $(INSTALLED_KERNEL_TARGET)
 
 # copy keylayout overrides
 $(shell mkdir -p $(TARGET_OUT_KEYLAYOUT); \
-    cp -pf device/Panasonic/P55Novo/keylayout/Generic.kl $(TARGET_OUT_KEYLAYOUT))
+    cp -pf device/BLU/STUDIO_X8_HD/keylayout/Generic.kl $(TARGET_OUT_KEYLAYOUT))

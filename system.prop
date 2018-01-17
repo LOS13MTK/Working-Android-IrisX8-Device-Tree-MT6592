@@ -1,5 +1,5 @@
 #
-# system.prop for LAVA IRISX8
+# system.prop for BLU STUDIO_X8_HD
 #
 
 rild.libpath=/system/lib/mtk-ril.so
